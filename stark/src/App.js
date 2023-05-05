@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
+import Comp from './Comp';
+import Modall from './Modall';
+import Fetch from './Fetch';
+import Fetch1 from './Fetch1';
+import Info from './Info';
+import Pdf from './Pdf';
 
 function App() {
   return (
@@ -7,17 +14,22 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React JS
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React JS !!!
-        </a>
+        
+        
+      <Button>Primary</Button>
+      <Button href="#text-buttons">Linkk</Button>
+      <Comp />
+      <Modall />
+      <Fetch />
+      <Fetch1/>
+      <Info />
+      <Pdf />
+    
+        
       </header>
+      
     </div>
   );
 }
