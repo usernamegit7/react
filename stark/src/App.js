@@ -7,6 +7,7 @@ import Fetch from './Fetch';
 import Fetch1 from './Fetch1';
 import Info from './Info';
 import Pdf from './Pdf';
+import Delete from './Delete';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Fetch1/>
       <Info />
       <Pdf />
+      <Delete />
     
         
       </header>
