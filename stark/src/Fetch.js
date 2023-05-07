@@ -2,13 +2,15 @@ import {React, useEffect} from 'react'
 import axios from 'axios'
 
 const Fetch = () => {
+  
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/todos')
         .then(response => response.json())
         .then(json => console.log(json))
+        
         }, []);
-
+        
         useEffect(() => {
             axios.get("https://jsonplaceholder.typicode.com/todos")
               .then((response) => console.log(response.data));
@@ -29,6 +31,7 @@ const Fetch = () => {
   return (
     <>
     <div>Fetch</div>
+    
     
     </>
   )
